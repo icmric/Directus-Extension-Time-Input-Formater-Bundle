@@ -2,7 +2,7 @@
 	"name": "format-time-bundle",
 	"description": "Bundle containing an interface and display for easily entering and rendering days, hours, and minutes stored as hours",
 	"icon": "more_time",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"keywords": [
 		"directus",
 		"directus-extension",
