@@ -7,13 +7,13 @@ Source code is avalible at: https://github.com/icmric/Directus-Extension-Time-In
 
 <h2>Interface</h2>
 
-![new-blank-interface](https://github.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/assets/108448521/00399759-c3ba-4b6d-a366-611e4d9d4af9)
-![interface-with-data](https://github.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/assets/108448521/5508384f-458d-4e1a-aad1-d88664786354)
+![new-blank-interface](https://raw.githubusercontent.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/main/images/new-blank-interface.jpg)
+![interface-with-data](https://raw.githubusercontent.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/main/images/interface-with-data.jpg)
 
 <h2>Display</h2>
 
-![new-display-demo](https://github.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/assets/108448521/c2b6e2bd-2eb0-4064-8082-a957fe074f7e)
+![new-display-demo](https://raw.githubusercontent.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/main/images/new-display-demo.jpg)
 
 <h2>Raw Data Output</h2>
 
-![raw data](https://github.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/assets/108448521/7bbb78c7-18bb-47d7-bbd7-379bddbd456e)
+![raw data](https://raw.githubusercontent.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/main/images/raw-data.jpg)
