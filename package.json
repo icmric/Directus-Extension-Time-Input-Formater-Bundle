@@ -1,7 +1,7 @@
 {
-	"name": "walk-time-bundle",
-	"description": "Bundle containing the walk time interface and display",
-	"icon": "extension",
+	"name": "format-time-bundle",
+	"description": "Bundle containing an interface and display for easily entering and rendering days, hours, and minutes stored as hours",
+	"icon": "more_time",
 	"version": "1.0.0",
 	"keywords": [
 		"directus",
