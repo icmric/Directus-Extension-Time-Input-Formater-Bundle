@@ -1,5 +1,8 @@
 <template>
-	<p>Total Time: {{ displayTime() }}</p>
+<div class="time-display" style="display: flex; align-items: center; gap: 10px;">
+    <p v-if="displayTime()" style="margin: 0;">{{ displayTime() }}</p>
+    <button v-if="displayTime()" type="clear" @click="reset">x</button>
+</div>
 	<form class="time-form">
         <input v-model="selectedDays" type="number" id="days" name="days" min="0" required><label for="days">Days</label>
 
@@ -10,7 +13,6 @@
         <label for="mins">Mins</label>
 
         <button type="submit" @click="addTime">Add</button>
-		<button type="reset" @click="reset">Reset</button>
     </form>
 </template>
 
@@ -161,7 +163,7 @@ function convertTime(timeToConvert) {
 			flex-direction: row;
 			display: flex;
             align-items: center;
-         padding: 10px;
+         /*padding: 10px;*/
         }
         .time-form input[type="number"] {
             width: 40px;
@@ -182,15 +184,16 @@ function convertTime(timeToConvert) {
         .time-form button[type="submit"]:hover {
             background-color: darkgreen;
         }
-		.time-form button[type="reset"] {
-			background-color: rgba(255, 0, 0, 0.85);
+		.time-display button[type="clear"] {
+			background-color: #21262e;
 			color: white;
-			padding: 8px 12px;
 			border: none;
 			cursor: pointer;
-			border-radius: 6px;
+			border-radius: 50%;
+			width: 37px;
+			height: 37px;
 		}
-		.time-form button[type="reset"]:hover {
-			background-color: darkred;
+		.time-display button[type="clear"]:hover {
+			background-color: #30363d;
 		}
 </style>
