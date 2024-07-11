@@ -3,6 +3,8 @@ This is a bundle containing an Interface and Display for Directus.
 The interface allows for easy input of time in Days, Hours, and Minutes, which is then displayed to the user.
 The times entered are stored as a JSON of hours, which the display uses to cleanly display the Days, Hours and Minutes
 
+Source code is avalible at: https://github.com/icmric/Directus-Extension-Time-Input-Formater-Bundle
+
 <h2>Interface</h2>
 
 ![new-blank-interface](https://github.com/icmric/Directus-Extension-Time-Input-Formater-Bundle/assets/108448521/00399759-c3ba-4b6d-a366-611e4d9d4af9)
